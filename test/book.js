@@ -30,7 +30,7 @@ describe("Books", () => {
     });
   });
   describe("/POST book", () => {
-    it("it should not POST a book without pages field", (done) => {
+    it("it should not POST a book without year field", (done) => {
       let book = {
         title: "The Lord of the Rings",
         author: "J.R.R. Tolkien",
